@@ -55,10 +55,6 @@ h2 {
   padding: 0 10%;
 }
 
-.lists {
-  padding: 0 10%;
-}
-
 .info-grid {
   display: grid;
   grid-template-columns: 40% 60%;
@@ -145,9 +141,6 @@ a {
 }
 
 @media (max-width: 1280px) {
-  .lists {
-    padding: 0 0%;
-  }
   .info-grid {
     width: 100%;
   }
