@@ -7,13 +7,17 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css?family=Poppins|Inter"
     />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
     <title>Welcome</title>
     <link rel="icon" type="image/x-icon" href="/favicon.png" />
   </head>
   <body>
     <div id="top" />
-    <nav class="topnav">
+    <nav class="nav">
       <a href="#top">Home</a>
       <a href="#lists">Lists</a>
       <a href="#info">Info</a>
@@ -23,38 +27,67 @@
       <div style="text-align: center; padding: 40px">
         <h1 style="margin: 0">🦈 Welcome to My Shark Page! 🦈</h1>
       </div>
-      <div id="lists" class="lists">
-        <h1>Shark Lists</h1>
-        <h2>Top 5 Sharks</h2>
-        <ol>
-          <li>Whale shark</li>
-          <li>Whitetip reef shark</li>
-          <li>Bamboo shark</li>
-          <li>Epaulette shark</li>
-          <li>Blahaj</li>
-        </ol>
-        <h2>Shark Facts</h2>
-        <ul>
-          <li>
-            Sharks have been around for about 450 million years, making them
-            older than dinosaurs.
-          </li>
-          <li>Great white sharks can go up to three months between meals.</li>
-          <li>
-            Hammerhead sharks have specialized sensors in their heads to detect
-            the electrical signals of their prey.
-          </li>
-          <li>
-            Not all sharks are fearsome predators; some, like the whale shark,
-            are filter feeders.
-          </li>
-          <li>
-            Sharks play a crucial role in maintaining the health of ocean
-            ecosystems by controlling prey populations.
-          </li>
-        </ul>
+      <div id="lists" class="anchor"></div>
+      <div class="lists">
+        <div style="display: grid; grid-template-columns: 350px auto">
+          <div style="
+                display: flex;
+                justify-content: center;
+                align-items: center;
+              "">
+            <h1
+              style="
+                background: -webkit-linear-gradient(#00b7ff, #05264d);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                font-size: 100px;
+                line-height:90px;"
+            >
+              Shark<br />Lists
+            </h1>
+          </div>
+          <div
+            style="
+              display: flex;
+              justify-content: center;
+              flex-direction: column;
+            "
+          >
+            <h2>Top 5 Sharks</h2>
+            <ol>
+              <li>Whale shark</li>
+              <li>Whitetip reef shark</li>
+              <li>Bamboo shark</li>
+              <li>Epaulette shark</li>
+              <li>Blahaj</li>
+            </ol>
+            <h2>Shark Facts</h2>
+            <ul>
+              <li>
+                Sharks have been around for about 450 million years, making them
+                older than dinosaurs.
+              </li>
+              <li>
+                Great white sharks can go up to three months between meals.
+              </li>
+              <li>
+                Hammerhead sharks have specialized sensors in their heads to
+                detect the electrical signals of their prey.
+              </li>
+              <li>
+                Not all sharks are fearsome predators; some, like the whale
+                shark, are filter feeders.
+              </li>
+              <li>
+                Sharks play a crucial role in maintaining the health of ocean
+                ecosystems by controlling prey populations.
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
-      <div id="info">
+      <div id="info" class="anchor"></div>
+      <div>
         <h1>Shark Information</h1>
         <div class="info-container">
           <div class="info-grid">
@@ -207,7 +240,8 @@
           </div>
         </div>
       </div>
-      <div id="images">
+      <div id="images" class="anchor"></div>
+      <div>
         <h1>Shark Images</h1>
         <div class="img-grid">
           <div class="item1x3 fill">

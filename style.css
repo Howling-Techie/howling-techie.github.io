@@ -2,7 +2,7 @@ body {
   font-family: "Inter", sans-serif;
   margin: 0;
   padding: 0;
-  background-color: rgb(150, 199, 255);
+  background-color: rgb(201, 226, 255);
 }
 h1 {
   font-family: "Poppins", sans-serif;
@@ -10,17 +10,22 @@ h1 {
 h2 {
   font-family: "Poppins", sans-serif;
 }
-.topnav {
+.nav {
   background-color: rgb(43, 71, 163);
   text-align: center;
   overflow: hidden;
   padding: 10px 0;
+  position: sticky;
+  top: 0;
 }
-.topnav a {
+.nav a {
   color: white;
   text-align: center;
   padding: 0 20px;
   text-decoration: none;
+  font-size: medium;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
 }
 .round-link {
   color: black;
@@ -40,7 +45,7 @@ h2 {
 }
 
 .lists {
-  padding: 0 25%;
+  padding: 0 10%;
 }
 
 .info-grid {
@@ -111,6 +116,10 @@ h2 {
   border-radius: 5px;
   border-color: rgb(150, 199, 255);
   border-width: 5px;
+  transition: transform 0.2s;
+}
+.img-grid > div:hover {
+  transform: scale(1.1);
 }
 .item1x3 {
   grid-row-start: 1;
@@ -125,4 +134,9 @@ h2 {
 
 a {
   font-size: small;
+}
+
+.anchor {
+  padding-top: 40px;
+  margin-top: -40px;
 }
