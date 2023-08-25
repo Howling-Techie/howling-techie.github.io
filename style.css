@@ -38,7 +38,14 @@ h2 {
   border-radius: 10px;
   margin: 10px;
   text-decoration: none;
+  transition: 0.5s ease-in-out;
 }
+.round-link:hover {
+  margin-top: 5px;
+  margin-bottom: 15px;
+  box-shadow: 0px 5px 5px 0px black;
+}
+
 .info-container {
   display: flex;
   flex-wrap: wrap;
